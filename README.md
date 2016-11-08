@@ -1,1 +1,1 @@
-# corespring-text-entry-react
+# corespring-text-entry
