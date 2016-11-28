@@ -1,0 +1,59 @@
+
+.noselect() {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+}
+
+.corespring-text-entry.black-on-rose {
+  background-color: mistyrose;
+  .choice{
+    background-color: mistyrose;
+  }
+}
+
+.corespring-text-entry.white-on-black {
+  background-color: black;
+  .choice{
+    background-color: black;
+    color: white;
+  }
+
+  .prompt{
+    color: white;
+  }
+}
+
+
+.corespring-text-entry {
+
+
+ font-family: 'Roboto', san-serif;
+
+  * {
+     font-family: 'Roboto', san-serif;
+  }
+
+  .text-entry-input {
+    border: 1px solid #cbcbcb;
+    box-shadow: none;
+    padding: 4px 6px;
+    border-radius: 3px;
+
+    &.filled-in {
+      background-color: #eef8fc;
+    }
+
+    &.correct {
+      border-color: green;
+    }
+
+    &.incorrect {
+      border-color: orange;
+    }
+  }
+
+}
